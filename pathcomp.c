@@ -34,7 +34,7 @@
 #include <stdint.h>
 #include <assert.h>
 
-#define LLA 64 // Maximum elements (limited by uint64_t)
+#define LLA 63 // Maximum elements (limited by uint64_t)
 
 struct node {
     uint64_t letters_table; // Bitmask for elements
